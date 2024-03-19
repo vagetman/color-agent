@@ -1,0 +1,19 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["vagetman@gmail.com"]
+cloned_from = "https://github.com/fastly/compute-starter-kit-javascript-default"
+description = "Represents every User-Agent with a color"
+language = "javascript"
+manifest_version = 3
+name = "color-agent"
+
+[scripts]
+  build = "npm run build"
+  post_init = "npm install"
+
+[local_server]
+  [local_server.kv_stores]
+    [[local_server.kv_stores.demo_ua_store]]
+      key = "items"
+      data = ""
