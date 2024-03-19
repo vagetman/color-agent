@@ -4,6 +4,12 @@
 
 A little demontration of use the `User-Agent` header, Fastly Compute, KV Store and SimpleCache API.
 
+## Demo
+Please visit the URL to demo the functionality https://color-agent.edgecompute.app/. 
+* A first request will likely to be "Generated" for a new `User-Agent` or "Stored" if the User-Agent has already been stored in the KV store
+* A subsequest request will come back as "Cached"
+* The request is cached with a TTL of 60s. A subsequest request arriving past the 60s TTL will come back as "Stored"
+
 ## Features
 
 * Generating a color background for a User-Agent header
