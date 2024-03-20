@@ -1,4 +1,4 @@
-# Default Starter Kit for JavaScript
+# User-Agent color generator
 
 [![Deploy to Fastly](https://deploy.edgecompute.app/button)](https://deploy.edgecompute.app/fastly/compute-starter-kit-javascript-default)
 
