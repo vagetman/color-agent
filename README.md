@@ -2,7 +2,7 @@
 
 [![Deploy to Fastly](https://deploy.edgecompute.app/button)](https://deploy.edgecompute.app/fastly/compute-starter-kit-javascript-default)
 
-A little demontration of use the `User-Agent` header, Fastly Compute, KV Store and SimpleCache API.
+A little demontration of use the Fastly Compute, KV Store and SimpleCache API.
 
 ## Demo
 Please visit the URL to demo the functionality https://color-agent.edgecompute.app/. 
